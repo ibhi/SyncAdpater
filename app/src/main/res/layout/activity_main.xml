@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Product Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txtProductName"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"/>
+    <TextView
+        android:text="Price"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txtPrice"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        />
+    <TextView
+        android:text="Description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txtDescription"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        />
+    <Button
+        android:id="@+id/btnAdd"
+        android:text="Add Product"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickAddProduct"
+        />
+    <Button
+        android:id="@+id/btnRetrieve"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrieve Products"
+        android:onClick="onClickRetrieveProducts"
+        />
+
+</LinearLayout>
